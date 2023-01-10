@@ -1,0 +1,48 @@
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #06113C;
+    border-radius: 2rem;
+}
+
+.block {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    font-weight: bold;
+    font: full-width;
+    border: 3px solid black;
+}
+
+.play-area {
+    display: grid;
+    width: 400px;
+    height: 350px;
+    grid-template-columns: auto auto auto auto;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(105, 145, 105);
+    color: white;
+}

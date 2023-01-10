@@ -1,0 +1,28 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    background-color:#FF8C32;
+    padding:2em;
+    text-align: center
+}
+.btn-primary{
+
+    text-align: center;
+    font-size: 27px;
+    background-color: #06113C;
+    color: #FFFFFF;
+    border: 1px solid black;
+    padding: 15px 20px 15px 20px;
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.btn-primary:hover {
+    color: var(--fonthovercolor);
+}
